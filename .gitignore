@@ -259,3 +259,13 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/编程之美资格赛/编程之美资格赛/data/splited_train_doc.txt
+*.txt
+/编程之美资格赛/编程之美资格赛/data/splited_train_doc.txt
+*.txt
+/编程之美资格赛/编程之美资格赛/data/splited_train_doc.txt
+/编程之美资格赛/编程之美资格赛/data
+*.txt
+/编程之美资格赛/编程之美资格赛/data/splited_train_doc.txt
+*.txt
+/编程之美资格赛/编程之美资格赛/tmp/splited_train_doc.bin

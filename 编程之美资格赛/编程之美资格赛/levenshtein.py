@@ -2,6 +2,7 @@ import numpy as np
 import codecs
 '''效果非常差'''
 def  levenshtein(str1,str2):
+    '''两个字符串之间的编辑距离'''
     len1 = len(str1)
     len2 = len(str2)
     dp = np.zeros([len1 + 1,len2 + 1],dtype=int)
