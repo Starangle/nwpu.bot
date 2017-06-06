@@ -22,7 +22,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="data\lcs.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="dbqa.py" />
+    <Compile Include="lcs.py" />
     <Compile Include="levenshtein.py">
       <SubType>Code</SubType>
     </Compile>
