@@ -18,7 +18,7 @@ namespace 编程之美初赛
         {
             if (activity.Type == ActivityTypes.Message)
             {
-                await Conversation.SendAsync(activity, () => new Dialogs.RootDialog());
+                await Conversation.SendAsync(activity, () => new Dialogs.RootLuisDialog());
             }
             else
             {

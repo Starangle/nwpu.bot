@@ -23,7 +23,8 @@ namespace 编程之美初赛.Dialogs
             int length = (activity.Text ?? string.Empty).Length;
 
             // return our reply to the user
-            await context.PostAsync($"You sent {activity.Text} which was {length} characters");
+            //await context.PostAsync($"You sent {activity.Text} which was {length} characters");
+            await context.PostAsync($"你好");
 
             context.Wait(MessageReceivedAsync);
         }
